@@ -1,0 +1,81 @@
+@media screen and (max-width: 991px) {
+   .right-right{
+      position: absolute;
+      right: -220px;
+      transition: all 1s;
+      z-index: 1;
+   }
+   .right-right.open{
+      position: absolute;
+      right: 0%;
+   }
+   .right-section .right-top .search-form {
+      display: none;
+   }
+   .right-section .right-bottom {
+      height: 60px;
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+   }
+   .right-section .right-top{
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+   }
+   .right-center .all-messages {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+      height: calc(100% - 60px);
+   }
+   .right-center .message .msg-profile {
+      margin-right: 10px;
+   }
+}
+
+
+
+@media screen and (max-width: 767px) {
+   .right-section{
+      display: none;
+      position: absolute;
+      overflow: hidden;
+   }
+   .left-section{
+      flex-grow: 1;
+   }
+   .left-section .bottom-left .profile-detail {
+      flex-grow: 1;
+   }
+   .left-section .bottom-left .profile-detail .profile-pic {
+      margin-right: 16px;
+   }
+   .left-section .bottom-left .bbb {
+      width: 100px;
+   }
+}
+
+
+
+@media screen and (max-width: 575px) {
+   .left-section .bottom-left .profile-detail .profile-pic {
+      margin-right: 8px;
+   }
+   .left-section .bottom-left .bbb {
+      width: 90px;
+   }
+   .right-section .right-top .my-btn{
+      margin: 0 0;
+   }
+   .right-section .right-top {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+   }
+   .right-section .right-bottom .my-btn{
+      margin: 0 0;
+   }
+   .right-section .right-bottom .chat-box{
+      padding: 0 4px;
+   }
+   .right-right.open {
+      width: 100%;
+   }
+}

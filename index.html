@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Discord</title>
+   <!-- css -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/responsive.css">
+   <!-- jquery -->
+   <script src="js/jquery-3.7.1.js"></script>
+</head>
+
+<body>
+
+   <div class="app">
+      <!-- left navigation -->
+      <div class="left-navigation">
+         <ul class="nav justify-content-center pt-2">
+            <li class="nav-item">
+               <a class="nav-link logo" href="#" data-bs-toggle="tooltip" data-bs-title="Direct Messages"
+                  data-bs-placement="right" data-bs-custom-class="left-navigation-tooltip">
+                  <i class="fab fa-discord"></i>
+                  <span class="badge bg-danger">2</span>
+               </a>
+            </li>
+            <li class="nav-divider"></li>
+            <li class="nav-item">
+               <a class="nav-link nav-user active" href="#" data-bs-toggle="tooltip" data-bs-title="Waqar Zaka Official"
+                  data-bs-placement="right" data-bs-custom-class="left-navigation-tooltip">
+                  <img src="img/profile.jpg" alt="">
+               </a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="#" data-bs-toggle="tooltip" data-bs-title="Add a Server"
+                  data-bs-placement="right" data-bs-custom-class="left-navigation-tooltip">
+                  <i class="fas fa-plus"></i>
+               </a>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-title="Explore Servers"
+                  data-bs-placement="right" data-bs-custom-class="left-navigation-tooltip">
+                  <i class="fas fa-compass"></i>
+               </a>
+            </li>
+            <li class="nav-divider"></li>
+            <li class="nav-item">
+               <a href="#" class="nav-link" data-bs-toggle="tooltip" data-bs-title="Download" data-bs-placement="right"
+                  data-bs-custom-class="left-navigation-tooltip">
+                  <i class="fas fa-download"></i>
+               </a>
+            </li>
+         </ul>
+      </div>
+      <!-- left section -->
+      <div class="left-section">
+         <div class="dropdown channel-dropdown">
+            <button class="dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="0,5">
+               Waqar Zaka Official
+               <i class="fa-solid fa-angle-down"></i>
+            </button>
+            <div class="dropdown-menu">
+               <a class="dropdown-item" href="#">Server Boost</a>
+               <hr class="dropdown-divider">
+               <a class="dropdown-item" href="#">
+                  Invite People
+                  <i class="fa-solid fa-user-plus"></i>
+               </a>
+               <a class="dropdown-item" href="#">App Directory</a>
+               <hr class="dropdown-divider">
+               <a class="dropdown-item" href="#">Show All Channels</a>
+               <a class="dropdown-item" href="#">Notification Setting</a>
+               <a class="dropdown-item" href="#">Privacy Setting</a>
+               <hr class="dropdown-divider">
+               <a class="dropdown-item" href="#">Edit Server Profile</a>
+               <a class="dropdown-item" href="#">Hide Muted Channels</a>
+               <hr class="dropdown-divider">
+               <a class="dropdown-item text-danger" href="#">
+                  Leave Server
+                  <i class="fa-solid fa-power-off"></i>
+               </a>
+            </div>
+         </div>
+         <div class="groups">
+            <a href="#" class="channels">
+               <i class="fa-solid fa-calendar-day text-secondary fs-5 me-2"></i> Browse Channels
+            </a>
+            <hr class="border-secondary">
+            <div class="my-accord">
+               <div class="header">
+                  <i class="fa-solid fa-angle-right angle"></i>
+                  *Waqar Zaka*
+                  <i class="fas fa-plus ms-auto"></i>
+               </div>
+               <div class="body">
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Youtube
+                  </a>
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Facebook
+                  </a>
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Instagram
+                  </a>
+               </div>
+            </div>
+            <div class="my-accord open">
+               <div class="header">
+                  <i class="fa-solid fa-angle-right angle"></i>
+                  *Waqar Zaka*
+                  <i class="fas fa-plus ms-auto"></i>
+               </div>
+               <div class="body">
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Youtube
+                  </a>
+                  <a href="#" class="item active">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Facebook
+                  </a>
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Instagram
+                  </a>
+               </div>
+            </div>
+            <div class="my-accord">
+               <div class="header">
+                  <i class="fa-solid fa-angle-right angle"></i>
+                  *Waqar Zaka*
+                  <i class="fas fa-plus ms-auto"></i>
+               </div>
+               <div class="body">
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Youtube
+                  </a>
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Facebook
+                  </a>
+                  <a href="#" class="item">
+                     <i class="fa-solid fa-hashtag text-secondary fs-5 me-2"></i> Instagram
+                  </a>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-left">
+            <div class="profile-detail">
+               <img class="profile-pic" src="img/profile.jpg" alt="">
+               <div class="d-flex flex-column aaa">
+                  <span class="name">Muhammad Abdullah Madni</span>
+                  <span class="desc">Lorem ipsum dolor sit amet.</span>
+               </div>
+            </div>
+            <div class="bbb">
+               <button class="my-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Mute">
+                  <i class="fa-solid fa-microphone"></i>
+               </button>
+               <button class="my-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Deafen">
+                  <i class="fa-solid fa-headphones"></i>
+               </button>
+               <a class="my-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="User Settings">
+                  <i class="fa-solid fa-gear"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- right section -->
+      <div class="right-section">
+         <!-- right top -->
+         <div class="right-top">
+            <button class="my-btn fs-5 d-md-none" id="back_to_home">
+               <i class="fa-solid fa-arrow-left"></i>
+            </button>
+            <i class="fa fa-hashtag fs-5 me-2"></i>
+            <span class="chat-name me-auto">Facebook</span>
+            <button class="my-btn fs-5">
+               <i class="fa-solid fa-message"></i>
+            </button>
+            <button class="my-btn fs-5">
+               <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="my-btn fs-5">
+               <i class="fa-solid fa-thumbtack"></i>
+            </button>
+            <button class="my-btn fs-5" id="toggle-group-members">
+               <i class="fa-solid fa-user-group"></i>
+            </button>
+            <form class="search-form" action="">
+               <input type="text" placeholder="Search">
+               <button type="button">
+                  <i class="fas fa-magnifying-glass"></i>
+               </button>
+            </form>
+            <button class="my-btn fs-5 d-lg-none" data-bs-toggle="modal" data-bs-target="#search_modal">
+               <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="my-btn fs-5">
+               <i class="fa-solid fa-inbox"></i>
+            </button>
+            <button class="my-btn fs-5">
+               <i class="fa-solid fa-circle-question"></i>
+            </button>
+         </div>
+         <!-- section -->
+         <div class="d-flex position-relative">
+            <!-- right center -->
+            <div class="right-center">
+               <!-- all messages -->
+               <div class="all-messages">
+                  <div class="message">
+                     <img src="img/profile.jpg" alt="" class="msg-profile">
+                     <div>
+                        <div class="d-flex align-items-center">
+                           <a href="#" class="msg-user-name me-2">Suleman76</a>
+                           <span class="msg-date">10/24/2023 8:18 PM</span>
+                        </div>
+                        <div class="msg-body">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, cupiditate!
+                        </div>
+                     </div>
+                  </div>
+                  <div class="date-message">
+                     <span class="date">October 24, 2023</span>
+                  </div>
+                  <div class="message">
+                     <img src="img/profile.jpg" alt="" class="msg-profile">
+                     <div>
+                        <div class="d-flex align-items-center">
+                           <a href="#" class="msg-user-name me-2">Suleman76</a>
+                           <span class="msg-date">10/24/2023 8:18 PM</span>
+                        </div>
+                        <div class="msg-body">
+                           Lorem ipsum dolor sit amet consectetur adipisicing elit. A, suscipit inventore veritatis unde
+                           dignissimos deleniti ipsum minus incidunt quas numquam qui fuga eveniet doloremque repellat
+                           explicabo delectus necessitatibus temporibus quo ipsa esse repellendus dolorem ipsam aperiam
+                           error. Accusantium, asperiores! Optio a ea numquam at. Distinctio in ullam nam sed fugiat.
+                           <img src="https://wallpapers.com/images/hd/coding-background-9izlympnd0ovmpli.jpg" alt=""
+                              class="">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- right bottom (chat box) -->
+               <div class="right-bottom">
+                  <form class="chat-box">
+                     <div class="dropup d-flex align-items-center">
+                        <button class="my-btn fs-5 dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                           data-bs-offset="-16, 16">
+                           <i class="fa-solid fa-circle-plus"></i>
+                        </button>
+                        <div class="dropdown-menu">
+                           <a class="dropdown-item" href="#">
+                              <i class="fa-solid fa-upload me-2"></i> Upload a File
+                           </a>
+                           <a class="dropdown-item" href="#">
+                              <i class="fas fa-hashtag me-2"></i>Create Thread
+                           </a>
+                           <a class="dropdown-item" href="#">Use Apps</a>
+                        </div>
+                     </div>
+                     <input type="text" placeholder="Messages #gereral">
+                     <button class="my-btn fs-5"><i class="fa-solid fa-gift"></i></button>
+                     <button class="my-btn fs-5">GIF</button>
+                     <button class="my-btn fs-5"><i class="fa-solid fa-file"></i></button>
+                     <button class="my-btn fs-5"><i class="fa-solid fa-face-laugh"></i></button>
+                  </form>
+               </div>
+            </div>
+            <!-- right right -->
+            <div class="right-right">
+               <p class="">ADMINISTATOR - 1</p>
+               <div class="group-member">
+                  <div class="pic">
+                     <img src="img/profile.jpg" alt="">
+                  </div>
+                  <span class="name">Suleman76</span>
+                  <span class="badge bg-secondary">
+                     <i class="fas fa-check"></i>
+                     BOT
+                  </span>
+               </div>
+               <div class="group-member">
+                  <div class="pic position-relative">
+                     <img src="img/profile.jpg" alt="">
+                     <span class="my-badge bg-success position-absolute rounded-circle end-0 bottom-0"></span>
+                  </div>
+                  <span class="name">Abdullah Madni</span>
+                  <span class="badge bg-secondary">
+                     <i class="fas fa-check"></i>
+                     BOT
+                  </span>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+   <!-- Search Modal -->
+   <div class="modal fade" id="search_modal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+         <div class="modal-content">
+            <div class="modal-header py-2">
+               <h1 class="modal-title fs-5" id="exampleModalLabel">Search</h1>
+               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+               <form action="">
+                  <div class="input-group mb-3">
+                     <input type="text" class="form-control" placeholder="Search...">
+                     <button class="btn btn-dark">
+                        <i class="fas fa-magnifying-glass"></i>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+
+
+
+
+
+   <!-- script -->
+   <script src="js/bootstrap.bundle.js"></script>
+   <script src="js/myScript.js"></script>
+</body>
+
+</html>
